@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+/*Navigation bar: navbar*/
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/*Navigation bar: logo and img*/
+#logo{
+    margin: 0px 10px;
+    display: flex;
+    cursor: pointer;
+}
+#logo img{
+    height: 60px;
+    width: 250px;
+}
+#services .box img{
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+/*Navigation bar: List Styling*/
+#navbar{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    height: 8vh;
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    
+}
+#navbar ul li a{
+    display: block;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+    font-family:  Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
+#navbar ul li a:hover{
+    color:white;
+    border-radius: 15px;
+    background-color: black;
+}
+.navitem1{
+    color: black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 0px 0px 0px 350px;
+}
+
+/*Home Section*/
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#home::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    background: url("spaghetti-1932466_1920.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    height: 103.7vh;
+}
+#home{
+    font-size: large;
+    font-style: italic;
+    height: 600px;
+}
+
+/*Head Utility*/
+#home h1{
+    font-size: 2.8rem;
+    padding: 12px;
+    color: white;
+    font-family: "Roboto";
+}
+#home p{
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+}
+.btn{
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 4px 20px;
+    margin: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+/*Utility Classes*/
+.h-primary{
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 3px;
+    color:black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+.h-secondary{
+    font-size: 2.2rem;
+    text-align: center;
+}
+#services{
+    border: 2px solid black;
+    border-radius: 2px;
+    margin: 14px;
+    margin-top: 0px;
+    padding: 14px;
+}
+#services .box img{
+    border-radius: 80px;
+}
+#services .box {
+    display: flex;
+    align-items: center;    
+}
+
+/*Services Box*/
+#services .box1 {
+    display: flex;
+    align-items: center; 
+    margin: 10px; 
+    font-size: 1.2rem;  
+}
+#services .box1 p1 {
+    padding-left: 140px;
+}
+#services .box1 p2 {
+    padding-left: 265px;
+} 
+#services .box1 p3 {
+    padding-left: 220px;
+} 
+#services .box1 p4 {
+    padding-left: 260px;
+} 
+#services .box2 p {
+    text-align: center;
+}
+#services .box2 h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#services .box2 p {
+    font-family: 'Courier New', Courier, monospace;
+}
+#services .box1 p1{
+    font-family: 'Courier New', Courier, monospace;
+}
+#services .box1 p2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#services .box1 p3{
+    font-family: 'Courier New', Courier, monospace;
+}
+#services .box1 p4{
+    font-family: 'Courier New', Courier, monospace;
+}
+/*Client-Section*/
+.client-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item img{
+    height: 120px;
+    padding: 30px;
+}
+.client-name{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+hr.solid {
+    border-top: 3px solid #bbb;
+    border-radius: 2px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
